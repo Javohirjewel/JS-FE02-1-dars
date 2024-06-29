@@ -32,9 +32,6 @@
 // room_name = 145
 // city_name = "Toshkent"
 
-
-
-
 // // camelCase ==================================
 
 //let  nickName = "okay"
@@ -43,11 +40,7 @@
 
 // console.log('Mening instagram accountim: '+  nickName,  'Ismim esa', name);
 
-
-
-
 // matematik operators ========================================
-
 // let x = 2 + 2 
 // let y = 85 - 65
 // let z = 45 / 5 // bo'lish
@@ -58,28 +51,75 @@
 
 // let x = 2
 
-// x = x + 10
 
-// x = x + 5
+// x = x - 15
 
-// increment ================================
+// increment ===================================
 
 // let son  = 20
-// son++
-// console.log(son);
-
+// console.log(--son);
 
 // // decrement =================================
 // let a = 8
 // a--
 
-// prefiks
+// prefiks ======================================
 
 // let son = 10
 
 // console.log(++son); usha zaxoti o'zlashtiradi
 
+// let number = (12, 89)
 
-let number = (12, 89)
+// console.log(number);
 
-console.log(number);
+
+
+// let, var, const   o'zgaruvchi e'lon qilish uchun ishlatiladigan js kalit so'zlari
+
+// let name = "Xumoyun" // konstant o'zgarmas
+// name = "Qarshi"
+
+// let surName = "Erkinov" // yangi termin
+// var surname = "Tolipov" // o'zgaradi va eski termin hisoblanadi
+// // birthdayYear // camelCase
+// // birthday_year // snake_case
+
+// console.log(60 / 12);
+
+// console.log(99 ** 0.5); // darajani yozish
+// 2 * 2 * 2 * 2 => 2(4)
+
+// console.log(56 <= 56);
+
+
+// str + str = str ==
+// str + number =  str ==
+// str + bool = str ====
+
+// const surname = " Erkinov"
+// console.log('Hello' + false + 12);
+// console.log( 50 + 60 + '20' );
+
+// console.log('65' + false);
+
+// bool + bool
+
+// console.log(true + 45 + "*Hello"); faqat pluslar uchun ishlaydigan qoidalar!!!
+
+// console.log("45" - 1); ikki tomonni ham number typega o'zagrtirishga harakat qildi
+
+// console.log(typeof(NaN)); NaN => Note a number
+
+// console.log("56a" - 9);
+
+
+// Ko'paytiruv =========================================================
+// console.log(
+//     56 * "Hello"
+// );
+
+a = "75" 
+let newA = Number(a)
+
+console.log(newA + 12);
